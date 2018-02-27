@@ -4,12 +4,15 @@ It is simple cache (not LRU) which uses several ETS to skip overload of ETS tabl
 
 # Usage
 
+Init instance of cache:
 
-You can use one client instance from several parallel working processes.
+```
+shared_cache:init(cache1, 5)
+```
 
-# Links
+All actions see shared_cache module
 
-Based on: https://github.com/hepek/erldnsclient
+Thank you.
 
 # License
 
