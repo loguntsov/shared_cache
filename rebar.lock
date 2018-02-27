@@ -1,0 +1,4 @@
+[{<<"beam_storage">>,
+  {git,"https://github.com/loguntsov/beam_storage.git",
+       {ref,"c3eeb00dbfadb87e5ee7f853460bf95dc739f239"}},
+  0}].
