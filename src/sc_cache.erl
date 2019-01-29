@@ -21,7 +21,7 @@ init(Name) ->
 put(Name, Key, Data, infinity) ->
   ets:insert(Name, { Key, Data, ?INFINITY });
 put(Name, Key, Data, TTL) when is_integer(TTL) ->
-  ets:insert(Name, { Key, Data, TTL + time:now_sec() }).
+  ets:insert(Name, { Key, Data, TTL + sc_time:now_sec() }).
 
 get(Name, Key) ->
   case ets:lookup(Name, Key) of
