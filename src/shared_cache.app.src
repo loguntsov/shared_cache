@@ -1,6 +1,6 @@
 {application, shared_cache, [
-  {description, ""},
-  {vsn, "1"},
+  {description, "Shared cache between several ETS tables"},
+  {vsn, "0.1"},
   {registered, []},
   {applications, [
     kernel,

@@ -4,13 +4,13 @@ It is simple cache (not LRU) which uses several ETS to skip overload of ETS tabl
 
 # Usage
 
-Init instance of cache:
+Create instance of cache:
 
 ```
-shared_cache:init(cache1, 5)
+shared_cache:new(cache1, 5)
 ```
 
-All actions see shared_cache module
+All actions see shared_cache module or tests.
 
 Thank you.
 
